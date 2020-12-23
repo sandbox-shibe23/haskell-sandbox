@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 97f2971d89b87af5073d393a53326b39430d38c276cc0a6dbb53e22336091eca
+-- hash: 6a4865ceca168a6616393920ade53f572fb87e987c7c45e5caad7a5e599f90ac
 
 name:           haskell-sandbox
 version:        0.1.0.0
@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       Basic01
+      Basic02
       Lib
   other-modules:
       Paths_haskell_sandbox
