@@ -1,4 +1,4 @@
-module Basic04 where
+module Basic04_take where
 
 -- 【問4】sum, product, take, drop, reverseと同じ機能の関数を再実装してください。関数名には'を付けてください。
 take' 0 x = x
