@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: eac8c9c66f3eb175efb3f8dabf1365db7e0c0474a571ec0dd5b6bb46bad9e2ad
+-- hash: ae9dfc67f9e4752d515157cb9d44f1ece0f4504ba8b20af49490338a74253b57
 
 name:           haskell-sandbox
 version:        0.1.0.0
@@ -27,9 +27,21 @@ source-repository head
 
 library
   exposed-modules:
+      Algebraic01
+      Algebraic02
       Basic01
       Basic02
       Basic03
+      Basic04_drop
+      Basic04_product
+      Basic04_reverse
+      Basic04_sum
+      Basic04_take
+      Basic05
+      Basic06
+      Basic07
+      Basic08
+      Basic09
       Lib
   other-modules:
       Paths_haskell_sandbox
