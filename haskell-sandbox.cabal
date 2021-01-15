@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ae9dfc67f9e4752d515157cb9d44f1ece0f4504ba8b20af49490338a74253b57
+-- hash: 71d620784f41c709bd526801bcf020eea56603ae98d1296e04902ee31ab7ac08
 
 name:           haskell-sandbox
 version:        0.1.0.0
@@ -27,8 +27,11 @@ source-repository head
 
 library
   exposed-modules:
+      Action01
       Algebraic01
       Algebraic02
+      Algebraic03
+      Algebraic04
       Basic01
       Basic02
       Basic03
@@ -49,6 +52,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , random
   default-language: Haskell2010
 
 executable haskell-sandbox-exe
@@ -61,6 +65,7 @@ executable haskell-sandbox-exe
   build-depends:
       base >=4.7 && <5
     , haskell-sandbox
+    , random
   default-language: Haskell2010
 
 test-suite haskell-sandbox-test
